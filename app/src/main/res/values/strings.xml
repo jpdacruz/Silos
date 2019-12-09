@@ -2,4 +2,6 @@
     <string name="app_name">Silos</string>
     <string name="ministerio">MINISTERIO DE AGRICULTURA, GANADERIA Y PESCA DE LA NACION</string>
     <string name="direccion">DIRECCION NACIONAL DE CONTROL COMERCIAL AGROPECUARIO</string>
+    <string name="iniciafiscalizacion">INICIAR NUEVA FISCALIZACION</string>
+    <string name="continuarfiscalizacion">CONTINUAR</string>
 </resources>
