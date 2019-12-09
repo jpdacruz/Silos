@@ -1,13 +1,19 @@
-package com.jpdacruz.silos.Clases;
+package com.jpdacruz.silos.entidades;
 
-public class Fiscalizacion {
+import androidx.room.Entity;
+//SE CREA LA ENTIDAD-CLASE CON LOS DATOS REFERENTES AL OBJETO
 
-    private String operador;
-    private String cuit;
-    private String asignacion;
-    private String tipoAsginacion;
+@Entity
+        (tableName = "operadores")
 
-    public Fiscalizacion(String operador, String cuit, String asignacion, String tipoAsginacion) {
+public class Operador_Entidad {
+
+    public String operador;
+    public String cuit;
+    public String asignacion;
+    public String tipoAsginacion;
+
+    public Operador_Entidad(String operador, String cuit, String asignacion, String tipoAsginacion) {
         this.operador = operador;
         this.cuit = cuit;
         this.asignacion = asignacion;
